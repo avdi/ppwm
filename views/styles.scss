@@ -1,0 +1,95 @@
+// Color Scheme
+$lblue: #8ACBFF;
+$blue: #1DA4FF;
+$grey: #545454;
+
+// Mixins
+@mixin gradient($from, $to) {
+  background-color: $from;
+  background-image: -moz-linear-gradient($from, $to);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+  background-image: -webkit-linear-gradient($from, $to);
+  background-image: -o-linear-gradient($from, $to);
+}
+
+// Top Level Elements
+body {
+  color: $grey;
+  background: $lblue;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+}
+
+textarea {
+  background: white;
+  border: 3px solid $blue;
+  display: block;
+  font-size: 14px;
+  height: 43px;
+  margin-left:25px;
+  padding: 8px;
+  text-align: center;
+  width: 550px;
+  width: 600px;
+}
+
+hr {
+  background-color: $blue;
+  border: 0;
+  color: $blue;
+  height: 1px;
+  width: 100%;
+}
+
+// Specific Section Styles
+
+.header-row {
+  @include gradient($blue, $lblue);
+  border-bottom: 4px solid $lblue;
+  color:$grey;
+  text-align: center;
+  width:100%;
+  .epic {
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+  }
+}
+.section {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:30px;
+  width:600px;
+  .example {
+    img {
+      float:left;
+      padding: 20px;
+      width:250px;
+    }
+    p {
+      float:right;
+      padding-top:20px;
+      width:290px;
+    }
+  }
+}
+
+.footer {
+  color: $blue;
+  padding: 2em;
+  text-align: center;
+}
