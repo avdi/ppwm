@@ -33,7 +33,6 @@ textarea {
   padding: 8px;
   text-align: center;
   width: 550px;
-  width: 600px;
 }
 
 hr {
@@ -74,6 +73,9 @@ hr {
   margin-right: auto;
   padding-top:30px;
   width:600px;
+  .action {
+    margin-left:450px;
+  }
   .example {
     img {
       float:left;
