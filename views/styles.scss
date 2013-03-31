@@ -95,3 +95,28 @@ hr {
   padding: 2em;
   text-align: center;
 }
+
+i.icon-pair {
+  font-family: pairwithmeregular;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+i.icon-pair:before {
+  content: "p";
+}
+h1.epic {
+  i.icon-pair:before {
+    font-size:95px;
+  }
+}
