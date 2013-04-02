@@ -1,0 +1,39 @@
+#content {
+  background: url("/gray_jean.png");
+  border-left: 2px solid #03556E;
+  border-right: 2px solid #03556E;
+  border-bottom: 2px solid #03556E;
+  @include grid-row;
+  @include grid-column(6, false, true);
+  h1 {
+    text-align: center;
+  }
+  pre code {
+    display: block;
+    border: 1px dotted #87A7B0;
+    border-radius: emCalc(12px);
+    padding: 1em;
+  }
+  .showcase {
+    @include grid-row;
+    $collapse: true;
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      border: emCalc(4px) solid #87A7B0;
+      border-radius: emCalc(12px);
+      padding: 1em;
+      background: white;
+    }
+  }
+}
+#copyright {
+  @include grid-row;
+  $collapse: true;
+  @include grid-column(12);
+  p {
+    text-align: center;
+    font-size: emCalc(14px);
+  }
+}
