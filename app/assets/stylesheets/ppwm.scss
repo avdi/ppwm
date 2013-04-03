@@ -1,14 +1,17 @@
 #content {
+  $lighter-badge-color: #87A7B0;
+  $darker-badge-color: #03556E;
   background: url("/gray_jean.png");
-  border-left: 2px solid #03556E;
-  border-right: 2px solid #03556E;
-  border-bottom: 2px solid #03556E;
+  border-left: 2px solid $lighter-badge-color;
+  border-right: 2px solid $lighter-badge-color;
+  border-bottom: 2px solid $lighter-badge-color;
   @include grid-row;
-  @include grid-column(6, false, true);
+  @include grid-column(8, false, true);
   h1 {
     text-align: center;
   }
   pre code {
+    overflow: auto;
     display: block;
     border: 1px dotted #87A7B0;
     border-radius: emCalc(12px);
