@@ -16,17 +16,27 @@ html lang="en"
     .section
       h2 Willing to Pair? Get the Badge.
 
-      p Ale terminal gravity bitter bacterial, " units of bitterness; terminal gravity, primary fermentation." hoppy specific gravity original gravity wort dextrin primary fermentation, " lauter becher noble hops." alcohol specific gravity barley microbrewery dextrin conditioning heat exchanger. <a href='http://beeripsum.com/'>beer ipsum</a> acid rest hop back cask, " barrel dry hopping!" finishing hops ester heat exchanger, mouthfeel. cask cask conditioning aau copper ale ipa!" pint glass yeast, " dry hopping." malt extract barrel units of bitterness?
+      p You can grab the code using the following html snippets. If for any reason you don't want the crisp and scalable lines of the SVG you are welcome to use the <a href="http://#{request.host}/badge.png">PNG</a> or even grab our custom font and make your own.
 
-      textarea
-        <a href='http://pairwith.me'><img src='http://pairwithme.com/badge.png'></a>
+      .callout
+        p Black text for a light background:
+        img src="/badge-black.svg" style="background-color:white;height:80px;width:230px;"
+        textarea
+          a href='http://pairwith.me'
+            img src="//#{request.host}/badge-black.svg" style="background-color:white;height:80px;width:230px;"
 
-      p Auter tun cold filter carboy, dry stout grainy chocolate malt krausen, hard cider. keg, " hand pump hop back; caramel malt finishing hops."
+      .callout
+        p White text for a dark background:
+        img src="/badge-white.svg" style="background-color:black;height:80px;width:230px;"
+        textarea
+          a href='http://pairwith.me'
+            img src="//#{request.host}/badge-black.svg" style="background-color:white;height:80px;width:230px;"
 
-      .example
-        img src="/badge.png"
-        p Trappist barleywine brewing cask dextrin. bock: malt wort chiller hefe pint glass.
+      p The details of the badge can be taylored to your site by adjusting the inline style on the image. Simply change the height and width settings to suit. If you remove the `background-color` the background of the will be transparent.
+
       hr
+
+      p Ale terminal gravity bitter bacterial, " units of bitterness; terminal gravity, primary fermentation." hoppy specific gravity original gravity wort dextrin primary fermentation, " lauter becher noble hops." alcohol specific gravity barley microbrewery dextrin conditioning heat exchanger. <a href='http://beeripsum.com/'>beer ipsum</a> acid rest hop back cask, " barrel dry hopping!" finishing hops ester heat exchanger, mouthfeel. cask cask conditioning aau copper ale ipa!" pint glass yeast, " dry hopping." malt extract barrel units of bitterness?
 
       p Fermentation hop back finishing hops bung, " top-fermenting yeast filter." priming aerobic brewhouse: bunghole; craft beer caramel malt; sour/acidic crystal malt tulip glass, hefe amber! conditioning brew kettle squares shelf life caramel malt wit length hop back. imperial ale ibu trappist, adjunct oxidized terminal gravity. units of bitterness ale hard cider ibu bottom fermenting yeast anaerobic pint glass. pitch, acid rest bright beer, cold filter mash tun carbonation racking seidel copper; terminal gravity dunkle?
       p.action
@@ -40,4 +50,4 @@ html lang="en"
 
     .section
       .footer
-        | Built with love by Avdi Grimm
+        | Built with love by Avdi Grimm and a little design help from <a href="http://www.codeography.com">Christopher Sexton</a>

@@ -3,6 +3,10 @@ $lblue: #8ACBFF;
 $blue: #1DA4FF;
 $grey: #545454;
 
+$forground: $grey;
+$background: $lblue;
+$background: #eee;
+
 // Mixins
 @mixin gradient($from, $to) {
   background-color: $from;
@@ -14,8 +18,12 @@ $grey: #545454;
 
 // Top Level Elements
 body {
-  color: $grey;
-  background: $lblue;
+  color: $forground;
+  //background: $background;
+  font-size: 17px;
+  // Thanks to subtlepatterns.com
+  background-image: url(/p6.png); background-size: 8px; background-position: initial initial; background-repeat: initial initial;
+  //background-image: url(/p6_@2X.png); background-size: 8px; background-position: initial initial; background-repeat: initial initial;
 }
 
 h1 {
@@ -23,22 +31,10 @@ h1 {
   color: white;
 }
 
-textarea {
-  background: white;
-  border: 3px solid $blue;
-  display: block;
-  font-size: 14px;
-  height: 43px;
-  margin-left:25px;
-  padding: 8px;
-  text-align: center;
-  width: 550px;
-}
-
 hr {
-  background-color: $blue;
+  background-color: darken($background, 10%);
+  color: darken($background, 10%);
   border: 0;
-  color: $blue;
   height: 1px;
   width: 100%;
 }
@@ -46,9 +42,9 @@ hr {
 // Specific Section Styles
 
 .header-row {
-  @include gradient($blue, $lblue);
-  border-bottom: 4px solid $lblue;
-  color:$grey;
+  //@include gradient($blue, $lblue);
+  border-bottom: 1px solid darken($background, 10%);
+  color:$forground;
   text-align: center;
   width:100%;
   .epic {
@@ -76,6 +72,27 @@ hr {
   .action {
     margin-left:450px;
   }
+  .callout {
+    background-color: darken($background, 5%);
+    padding: 20px;
+    margin: 10px;
+    border-radius:8px;
+    img {
+      margin-left: 145px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      background: darken($background, 0%);
+      border: thin solid $background;
+      font-size: 14px;
+      padding: 20px 10px 10px;
+      text-align: center;
+      width: 100%;
+      height: 80px;
+      margin: 10px 0 0 0;
+    }
+
+  }
   .example {
     img {
       float:left;
@@ -91,9 +108,13 @@ hr {
 }
 
 .footer {
-  color: $blue;
+  color: darken($background, 20%);
   padding: 2em;
   text-align: center;
+  font-size: 10px;
+  a {
+  color: darken($background, 20%);
+}
 }
 
 i.icon-pair {
