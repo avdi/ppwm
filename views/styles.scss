@@ -1,13 +1,14 @@
 // Color Scheme
 $lblue: #8ACBFF;
 $blue: #1DA4FF;
+$lgrey: #EBEBEB;
 $grey: #545454;
 
 $forground: $grey;
-$background: $lblue;
-$background: #eee;
+$background: $lgrey;
 
 // Mixins
+
 @mixin gradient($from, $to) {
   background-color: $from;
   background-image: -moz-linear-gradient($from, $to);
@@ -17,12 +18,14 @@ $background: #eee;
 }
 
 // Top Level Elements
+
 body {
   color: $forground;
-  //background: $background;
+  background-color: $background;
   font-size: 17px;
   // Thanks to subtlepatterns.com
   background-image: url(/p6.png); background-size: 8px; background-position: initial initial; background-repeat: initial initial;
+  // Retina
   //background-image: url(/p6_@2X.png); background-size: 8px; background-position: initial initial; background-repeat: initial initial;
 }
 
@@ -39,11 +42,9 @@ hr {
   width: 100%;
 }
 
-// Specific Section Styles
+// Custom Classes
 
 .header-row {
-  //@include gradient($blue, $lblue);
-  border-bottom: 1px solid darken($background, 10%);
   color:$forground;
   text-align: center;
   width:100%;
@@ -93,18 +94,6 @@ hr {
     }
 
   }
-  .example {
-    img {
-      float:left;
-      padding: 20px;
-      width:250px;
-    }
-    p {
-      float:right;
-      padding-top:20px;
-      width:290px;
-    }
-  }
 }
 
 .footer {
@@ -113,8 +102,8 @@ hr {
   text-align: center;
   font-size: 10px;
   a {
-  color: darken($background, 20%);
-}
+    color: darken($background, 20%);
+  }
 }
 
 i.icon-pair {
@@ -134,7 +123,7 @@ i.icon-pair {
   margin-top: 0;
 }
 i.icon-pair:before {
-  content: "p";
+  content: "p"; // 'p' maps to the icon in the custom font
 }
 h1.epic {
   i.icon-pair:before {
