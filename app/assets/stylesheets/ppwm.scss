@@ -7,6 +7,9 @@
   border-bottom: 2px solid $lighter-badge-color;
   @include grid-row;
   @include grid-column(8, false, true);
+  li {
+    list-style-position: inside;
+  }
   h1 {
     text-align: center;
   }
