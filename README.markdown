@@ -3,7 +3,7 @@
 A community-maintained resource to encourage and facilitate diverse
 pair-programming. Help eagerly welcomed!
 
-# LICENCE
+# LICENSE
 
 Copyright (c) 2013 Avdi Grimm
 
