@@ -38,12 +38,14 @@ successfully pair-programming beyond your office.
   around tmux to ease remote pairing setup.
 - [Google+ Hangouts](http://www.google.com/+/learnmore/hangouts/) have
   view-only screen-sharing, but integrate audio and video chat.
-- [Screenhero](http://screenhero.com/) is a screen-sharing app for Mac
-  and Windows, optimized for collaboration. It includes features like
-  dual mouse pointers, so you can see what your pairing partner is
-  pointing at.
-- [Syme](http://syme.herokuapp.com/) "sets up disposable EC2 nodes for
-collaborating on GitHub projects via ssh and tmux".
+- [Screenhero](http://screenhero.com/) is a screen-sharing app for Mac/Windows,
+optimized for collaboration. It includes features like dual mouse pointers, 
+so you can see what your pairing partner is pointing at.
+- [Syme](http://syme.herokuapp.com/) sets up disposable EC2 nodes for
+collaborating on GitHub projects via ssh and tmux.
+- [Join.me](https://join.me/) Simple, free and awesome cross-platform 
+(mac/win/mobile) screensharing for multiple users, with remote control, 
+audio and text chat.
 
 Is this page missing something?
 [Pull requests are welcome!](https://github.com/avdi/ppwm)
