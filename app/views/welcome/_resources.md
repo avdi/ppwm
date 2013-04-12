@@ -24,6 +24,7 @@ successfully pair-programming beyond your office.
   blog post.
 - [RubyPair.com](http://rubypair.com/) is a site to find someone to
   pair with on Ruby projects.
+- [Pair-with-me.herokuapp.com](http://pair-with-me.herokuapp.com/) is an aggregator for #pairwithme tweets, by Marty Hines.
 
 ### Tools
 - [TMUX](http://tmux.sourceforge.net/) Allows more than one person to
