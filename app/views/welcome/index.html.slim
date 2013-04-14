@@ -7,15 +7,19 @@
     p
       | Put this badge on your blog or project home page. Link it to a way to contact you.
         For instance, link it to a <a href="http://wufoo.com">custom contact form</a>.
-          Or use a <code>mailto:</code> link:
-    p
-      pre
-        code
-          | &lt;a href="mailto:coder@example.org"&gt;
-              &lt;img src="http://pairprogramwith.me/badge.png"
-                   alt="Pair program with me!" &gt;
-            &lt;/a&gt;
+          Or use magically generated code with <code>mailto:</code> link.
 
+    form#get-badge-code
+      .row.collapse
+        .small-2.columns
+          label.prefix for="badge-email" My email
+        .small-8.columns
+          input#badge-email type="text" placeholder="awesome@coder.org"
+        .small-2.columns
+          button#submit-email.button.prefix
+            | Get badge code!
+
+    textarea.badge-code.hide disabled=true Gode goes here when you submit your email
     p
       | Or link it to your Twitter profile! I don't care! Just put it up, and let the world know it's OK to ask!
 
