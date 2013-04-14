@@ -33,6 +33,17 @@
       background: white;
     }
   }
+  label.prefix {
+    @include prefix(#eee, false);
+    color: #666;
+  }
+  .badge-code {
+    padding: .5em .8em;
+    border: 2px solid $lighter-badge-color ;
+    border-radius: emCalc(12px);
+    font-family: monospace;
+    min-height: 6em;
+  }
 }
 #copyright {
   @include grid-row;
