@@ -14,3 +14,7 @@
 /log/*.log
 /tmp
 /.sass-cache
+
+# Ignore rvm settings
+.ruby-version
+.ruby-gemset
