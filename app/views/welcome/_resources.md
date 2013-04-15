@@ -36,6 +36,8 @@ successfully pair-programming beyond your office.
   for remote pairing built around Wemux, from LivingSocial.
 - [Tweemux](https://github.com/PeopleAdmin/tweemux) A slim wrapper
   around tmux to ease remote pairing setup.
+- [github-auth](https://github.com/chrishunt/github-auth) SSH key management
+  for Github users. Easily add/remove any Github user's public ssh keys.
 - [Google+ Hangouts](http://www.google.com/+/learnmore/hangouts/) have
   view-only screen-sharing, but integrate audio and video chat.
 - [Screenhero](http://screenhero.com/) is a screen-sharing app for Mac/Windows,
