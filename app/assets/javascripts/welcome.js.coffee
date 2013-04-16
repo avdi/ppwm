@@ -19,5 +19,5 @@ $ ->
     false
 
   $('#badge-email').focus ->
-    $('.badge-code').html('Gode goes here when you submit your email').
+    $('.badge-code').html('Code goes here when you submit your email').
                     attr('disabled', true)
