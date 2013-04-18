@@ -9,6 +9,8 @@ successfully pair-programming beyond your office.
   [ls-pair README](https://github.com/livingsocial/ls-pair), which
   distills many of the best practices Sam and others at LivingSocial
   have evolved for remote pairing.
+- Sam also has a <a href="http://youtu.be/wKEGA8oEWXw">tmux Quick Start
+  screencast</a> to get you all orientated with this terminal power tool.
 - Joe Moore has a whole
   [blog dedicated to remote pair-programming](http://remotepairprogramming.com/).
 - <a
