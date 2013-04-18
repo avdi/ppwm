@@ -7,7 +7,7 @@ successfully pair-programming beyond your office.
   href="http://www.youtube.com/watch?v=W_hsEi_UZHE">talks about Tools
   for Pair Programming (video)</a>.  See also the
   [ls-pair README](https://github.com/livingsocial/ls-pair), which
-  distills many of the best-practices Sam and others at LivingSocial
+  distills many of the best practices Sam and others at LivingSocial
   have evolved for remote pairing.
 - Joe Moore has a whole
   [blog dedicated to remote pair-programming](http://remotepairprogramming.com/).
