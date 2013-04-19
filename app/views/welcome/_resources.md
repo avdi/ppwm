@@ -52,6 +52,8 @@ collaborating on GitHub projects via ssh and tmux.
 - [Join.me](https://join.me/) Simple, free and awesome cross-platform 
 (mac/win/mobile) screensharing for multiple users, with remote control, 
 audio and text chat.
+- [Remote Pair Chef](https://github.com/rondale-sc/remote_pair_chef) Quickly build customized EC2 instances 
+bootstrapped with RVM, TMUX, Vim and pre-built users in a single command.
 
 Is this page missing something?
 [Pull requests are welcome!](https://github.com/avdi/ppwm)
