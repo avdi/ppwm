@@ -1,37 +1,51 @@
-#content
-  h1 Pair widely. Pair often.
-  section#badge
-    p Put out the pair-programming welcome mat! Get the badge:
+header
+  .content
     p.showcase
       img src="badge.png"
-    p
-      | Put this badge on your blog or project home page. Link it to a way to contact you.
-        For instance, link it to a <a href="http://wufoo.com">custom contact form</a>.
-          Or use magically generated code with <code>mailto:</code> link.
+    h1 Pair widely. Pair often.
 
-    form#get-badge-code
-      .row.collapse
-        .small-2.columns
-          label.prefix for="badge-email" My email
-        .small-8.columns
-          input#badge-email type="text" placeholder="awesome@coder.org"
-        .small-2.columns
-          button#submit-email.button.prefix
-            | Get badge code!
+  
+section#badge
+  .content
+    .main-content
+      p.lead Put out the pair-programming welcome mat!
+      p
+        | Put this badge on your blog or project home page. Link it to a way to contact you.
+          For instance, link it to a <a href="http://wufoo.com">custom contact form</a>.
+            Or use magically generated code with <code>mailto:</code> link.
 
-    textarea.badge-code.hide disabled=true Gode goes here when you submit your email
-    p
-      | Or link it to your Twitter profile! I don't care! Just put it up, and let the world know it's OK to ask!
+      form#get-badge-code
+        .row.collapse
+          .small-9.columns
+            input#badge-email type="email" placeholder="awesome@coder.org"
+          .small-3.columns
+            button#submit-email.button.prefix
+              | Get badge code!
 
-  section#resources
-    h2 Resources
-    = render 'resources'
-  section#faq
+      textarea.badge-code.hide disabled=true Gode goes here when you submit your email
+      p
+        | Or link it to your Twitter profile! I don't care! Just put it up, and let the world know it's OK to ask!
+    .sidebar-content
+      p.lead Get the badge:
+      img src="badge.png"
+      p.nb http://www.pairprogramwith.me/badge.png
 
-  section#copyright
+section#resources
+  .content
+    .main-content
+      h2 Resources
+      = render 'resources'
+    .sidebar-content
+      h2 Something Missing?
+      p Is this page missing something?<br><a href="https://github.com/avdi/ppwm">Pull requests are welcome!</a>
+
+section#faq
+
+section#copyright
+  .content
     p
-      | Ugly HTML by <a href="http://devblog.avdi.org">Avdi Grimm</a>.
-      | Awesome badge by <a href="http://twoguys.us/">David Browning</a>.
-    p
-      a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US"
-        img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png"
+      | Ugly HTML by <a href="http://devblog.avdi.org">Avdi Grimm</a>. 
+      | Awesome badge by <a href="http://twoguys.us/">David Browning</a>. 
+      | Design by <a href="http://chri.so/">Chris Radford</a>. 
+      a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US" id="licence"
+        img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png"

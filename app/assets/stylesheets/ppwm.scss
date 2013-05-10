@@ -1,56 +1,205 @@
-#content {
-  $lighter-badge-color: #87A7B0;
+body {
+  $badge-blue: #0988b0;
+  $badge-hover-blue: #2d96b6;
+  $darker-background-color: #88a7b1;
   $darker-badge-color: #03556E;
-  background: url("/gray_jean.png");
-  border-left: 2px solid $lighter-badge-color;
-  border-right: 2px solid $lighter-badge-color;
-  border-bottom: 2px solid $lighter-badge-color;
-  @include grid-row;
-  @include grid-column(8, false, true);
-  li {
-    list-style-position: inside;
+  $darker-text-color: #012d3a;
+  $lighter-background-color: #cbeefa;
+  $lighter-badge-color: #87A7B0;
+  $lighter-text-color: #f3f9fb;
+  $mid-background-color: #a0b9c1;
+
+  color: $lighter-text-color;
+  display: block;
+  font-family: "Helvetica-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.6em;
+  
+  a:hover {
+    text-decoration: underline;
   }
-  h1 {
-    text-align: center;
-  }
-  pre code {
-    overflow: auto;
+  
+  header, section {
     display: block;
-    border: 1px dotted #87A7B0;
-    border-radius: emCalc(12px);
-    padding: 1em;
+    padding: 5em 0 4em;
   }
-  .showcase {
-    @include grid-row;
-    $collapse: true;
-    text-align: center;
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      border: emCalc(4px) solid #87A7B0;
-      border-radius: emCalc(12px);
-      padding: 1em;
-      background: white;
+  
+  h1, h2, h3 {
+    font-weight: 200;
+  }
+  
+  header {
+    background: #171322 url(/header-bg.jpg) no-repeat center top;
+    
+    h1 {
+      color: #fff;
+      font-size: emCalc(50px);
+      margin-top: 1em;
+      text-align: center;
+    }
+    
+    .showcase {
+      @include grid-row;
+      $collapse: true;
+      text-align: center;
+  
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        border-width: 0px;
+      }
     }
   }
-  label.prefix {
-    @include prefix(#eee, false);
-    color: #666;
+  
+  img {
+    border: none;
+    border-width: 0px;
   }
+  
+  section {
+    button.button {
+      background: $badge-blue;
+      border: none;
+      box-shadow: none;
+      font-size: emCalc(16px);
+      font-weight: 300;
+      height: 41px;
+      outline: none;
+      padding: 1em;
+    }
+    
+    button.button:hover {
+      background: $badge-hover-blue;
+    }
+    
+    code {
+      color: $lighter-text-color;
+      font-weight: normal;
+      padding: 0 1px 0 2px;
+    }
+
+    h2 {
+       font-size: emCalc(24px);
+    }
+    
+    h3 {
+       font-size: emCalc(21px);
+    }
+    
+    input[type=text], input[type=email] {
+      background: $mid-background-color;
+      border: none;
+      box-shadow: none;
+      color: $darker-text-color;
+      font-size: emCalc(18px);
+      padding: 0.5em 1em;
+    }
+    
+    input[type=text]:focus, input[type=email]:focus {
+      background-color: $lighter-background-color;
+    }
+    
+    ::-webkit-input-placeholder {
+      color: $lighter-text-color;
+    }
+    :-moz-placeholder {
+      /* Firefox 18- */
+      color: $lighter-text-color;  
+    }
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: $lighter-text-color;  
+    }
+    :-ms-input-placeholder {  
+      color: $lighter-text-color;  
+    }
+    
+    li {
+      margin: 0.5em 0;
+    }
+  
+    p {
+      font-size: emCalc(18px);
+    }
+    
+    p.lead {
+      font-size: emCalc(24px);
+    }
+    
+    p.nb {
+      font-size: emCalc(12px);
+      text-align: center;
+    }
+    
+    ul {                                                 
+      font-size: emCalc(18px);
+    } 
+  }
+  
+  section#badge, section#faq {
+    background: $darker-background-color;
+    
+    a {
+      color: $badge-blue;
+    }
+    a:hover {
+      color: $badge-hover-blue;
+    }
+  }
+  
+  section#resources, section#copyright {
+    background: $lighter-background-color;
+    color: $darker-text-color;
+  }
+  
+  section#copyright {
+    font-size: emCalc(11px);
+    padding: 0;
+  }
+  
+  section#faq {
+    padding: 0;
+  }
+  
+  .content {
+    @include grid-row;
+    @include grid-column(12, false, true);
+    
+    .main-content {
+      @include grid-column(8, false, false);
+    }
+    
+    .sidebar-content {
+      @include grid-column(4, false, false);
+    }
+  }
+  
   .badge-code {
-    padding: .5em .8em;
+    background: $lighter-background-color;
     border: 2px solid $lighter-badge-color ;
-    border-radius: emCalc(12px);
+    border-radius: emCalc(8px);
+    color: $darker-text-color;
     font-family: monospace;
-    min-height: 6em;
+    font-size: emCalc(16px);
+    min-height: 7em;
+    padding: 1.2em 1.8em;
   }
 }
-#copyright {
-  @include grid-row;
-  $collapse: true;
-  @include grid-column(12);
-  p {
-    text-align: center;
-    font-size: emCalc(14px);
+
+#forkme {
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#licence {
+  left: 7px;
+  position: relative;
+  top: 10px;
+  
+  img {
+    border-width: 0;
   }
 }
