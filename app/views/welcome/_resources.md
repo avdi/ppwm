@@ -54,3 +54,5 @@ collaborating on GitHub projects via ssh and tmux.
 audio and text chat.
 - [Remote Pair Chef](https://github.com/rondale-sc/remote_pair_chef) Quickly build customized EC2 instances 
 bootstrapped with RVM, TMUX, Vim and pre-built users in a single command.
+- [CoVim](https://github.com/FredKSchott/CoVim)
+  is a plugin that adds multi-user, real-time collaboration to Vim.
