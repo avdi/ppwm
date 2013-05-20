@@ -30,6 +30,7 @@ successfully pair-programming beyond your office.
 - [Pair-with-me.herokuapp.com](http://pair-with-me.herokuapp.com/) is an aggregator for #pairwithme tweets, by Marty Hines.
 - [Ruby Rogues Podcast episode #26](http://rubyrogues.com/026-rr-pair-programming/) talked about pair programming.
 - Angela Harms [has a talk](http://www.youtube.com/watch?v=OQXEzwXtzJ8) about common pitfalls.
+- [letspair.net](http://letspair.net) is a site where you can schedule your pair programming sessions or join someone else's.
 
 ### Tools
 - [TMUX](http://tmux.sourceforge.net/) Allows more than one person to
