@@ -28,6 +28,7 @@ successfully pair-programming beyond your office.
   pair with on Ruby projects.
 - [Emberpairs.com](http://emberpairs.com) is a site to find someone to pair with on Ember projects.
 - [Pair-with-me.herokuapp.com](http://pair-with-me.herokuapp.com/) is an aggregator for #pairwithme tweets, by Marty Hines.
+- [airpair.com](http://www.airpair.com) lets developers easily list themselves for paid pairing.
 - [Ruby Rogues Podcast episode #26](http://rubyrogues.com/026-rr-pair-programming/) talked about pair programming.
 - Angela Harms [has a talk](http://www.youtube.com/watch?v=OQXEzwXtzJ8) about common pitfalls.
 
@@ -45,14 +46,14 @@ successfully pair-programming beyond your office.
 - [Google+ Hangouts](http://www.google.com/+/learnmore/hangouts/) have
   view-only screen-sharing, but integrate audio and video chat.
 - [Screenhero](http://screenhero.com/) is a screen-sharing app for Mac/Windows,
-optimized for collaboration. It includes features like dual mouse pointers, 
+optimized for collaboration. It includes features like dual mouse pointers,
 so you can see what your pairing partner is pointing at.
 - [Syme](http://syme.herokuapp.com/) sets up disposable EC2 nodes for
 collaborating on GitHub projects via ssh and tmux.
-- [Join.me](https://join.me/) Simple, free and awesome cross-platform 
-(mac/win/mobile) screensharing for multiple users, with remote control, 
+- [Join.me](https://join.me/) Simple, free and awesome cross-platform
+(mac/win/mobile) screensharing for multiple users, with remote control,
 audio and text chat.
-- [Remote Pair Chef](https://github.com/rondale-sc/remote_pair_chef) Quickly build customized EC2 instances 
+- [Remote Pair Chef](https://github.com/rondale-sc/remote_pair_chef) Quickly build customized EC2 instances
 bootstrapped with RVM, TMUX, Vim and pre-built users in a single command.
 - [Cloud9](https://c9.io/site/code-smarter-code-together/) is an online ide that allows "developers around the world to edit the same code and chat together in real-time".
 You can sign in with your github account and clone repos straight into it.
