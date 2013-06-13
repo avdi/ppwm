@@ -49,5 +49,3 @@ gem 'jquery-rails'
 group :development do
   gem 'therubyracer'
 end
-
-gem 'ppwm-matcher', github: 'rubyrogues/ppwm-matcher', require: 'ppwm_matcher'
