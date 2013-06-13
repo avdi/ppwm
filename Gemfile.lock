@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/rubyrogues/ppwm-matcher.git
+  revision: 8776f37de8f2f6afb7a2ccd7b2cadf72135294c2
+  specs:
+    ppwm-matcher (0.0.1)
+      activerecord
+      pg
+      rake
+      sinatra-activerecord
+      sinatra_auth_github
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,6 +39,7 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    addressable (2.3.4)
     arel (3.0.2)
     builder (3.0.4)
     coffee-rails (3.2.2)
@@ -40,6 +52,11 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    faraday_middleware (0.9.0)
+      faraday (>= 0.7.4, < 0.9)
+    hashie (2.0.5)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -53,12 +70,23 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.22)
-    multi_json (1.7.2)
-    pg (0.15.0)
+    multi_json (1.7.6)
+    multipart-post (1.2.0)
+    netrc (0.7.7)
+    octokit (1.24.0)
+      addressable (~> 2.2)
+      faraday (~> 0.8)
+      faraday_middleware (~> 0.9)
+      hashie (~> 2.0)
+      multi_json (~> 1.3)
+      netrc (~> 0.7.7)
+    pg (0.15.1)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
+    rack-protection (1.5.0)
+      rack
     rack-ssl (1.3.3)
       rack
     rack-test (0.6.2)
@@ -87,6 +115,16 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    sinatra (1.4.3)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-activerecord (1.2.2)
+      activerecord (~> 3.0)
+      sinatra (~> 1.0)
+    sinatra_auth_github (0.13.3)
+      sinatra (~> 1.0)
+      warden-github (~> 0.13.1)
     slim (1.3.6)
       temple (~> 0.5.5)
       tilt (~> 1.3.3)
@@ -105,7 +143,7 @@ GEM
     therubyracer (0.10.0)
       libv8 (~> 3.3.10)
     thor (0.18.1)
-    tilt (1.3.6)
+    tilt (1.3.7)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
@@ -113,6 +151,11 @@ GEM
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    warden (1.2.1)
+      rack (>= 1.0)
+    warden-github (0.13.2)
+      octokit (>= 1.22.0)
+      warden (> 1.0)
     zurb-foundation (4.0.9)
       sass (>= 3.2.0)
 
@@ -123,6 +166,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   pg
+  ppwm-matcher!
   rails (= 3.2.13)
   redcarpet
   sass-rails (~> 3.2.3)
