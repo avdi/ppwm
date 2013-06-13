@@ -15,6 +15,7 @@ end
 
 gem 'slim-rails'
 gem 'redcarpet'
+gem 'ppwm-matcher', require: 'ppwm_matcher/app', github: 'rubyrogues/ppwm-matcher'
 
 # Gems used only for assets and not required
 # in production environments by default.

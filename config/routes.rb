@@ -1,5 +1,9 @@
 Ppwm::Application.routes.draw do
+
+  mount PpwmMatcher::App, at: 'match'
+
   get "welcome/index"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
