@@ -1,11 +1,12 @@
 GIT
   remote: git://github.com/rubyrogues/ppwm-matcher.git
-  revision: d61025e4699b9b772e4f5cd166a8618700201b12
+  revision: 02a888ea9d95949ecd1b8cbf8b62d1439d043a28
   branch: master
   specs:
     ppwm-matcher (0.0.1)
       activerecord
       pg
+      pony
       rake
       sinatra-activerecord
       sinatra_auth_github
@@ -83,6 +84,8 @@ GEM
       netrc (~> 0.7.7)
     pg (0.15.1)
     polyglot (0.3.3)
+    pony (1.4.1)
+      mail (> 2.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
