@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rubyrogues/ppwm-matcher.git
-  revision: d6ddf40fa93ff70179040ded6245eb6121e5a3eb
+  revision: e3ae157b948453fb35d230e590dbc5a55ac03e5b
   branch: master
   specs:
     ppwm-matcher (0.0.1)
