@@ -11,13 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130612205050) do
+ActiveRecord::Schema.define(:version => 20130614151140) do
 
   create_table "ppwm_matcher_codes", :force => true do |t|
     t.string   "value"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  add_index "ppwm_matcher_codes", ["value"], :name => "index_ppwm_matcher_codes_on_value", :unique => true
 
   create_table "ppwm_matcher_users", :force => true do |t|
     t.string   "email"
@@ -26,6 +28,9 @@ ActiveRecord::Schema.define(:version => 20130612205050) do
     t.datetime "updated_at",   :null => false
     t.string   "gravatar_id"
     t.string   "github_login"
+    t.string   "name"
   end
+
+  add_index "ppwm_matcher_users", ["github_login"], :name => "index_ppwm_matcher_users_on_github_login", :unique => true
 
 end
