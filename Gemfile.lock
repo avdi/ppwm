@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rubyrogues/ppwm-matcher.git
-  revision: 11b70dd440a5b787902b4dc3504927eb14cae687
+  revision: d6ddf40fa93ff70179040ded6245eb6121e5a3eb
   branch: master
   specs:
     ppwm-matcher (0.0.1)
@@ -71,7 +71,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.22)
-    multi_json (1.7.6)
+    multi_json (1.7.7)
     multipart-post (1.2.0)
     netrc (0.7.7)
     octokit (1.24.0)
