@@ -75,3 +75,5 @@ successfully pair-programming beyond your office.
   Hangout.
 - [CoVim](https://github.com/FredKSchott/CoVim) is a plugin that adds
   multi-user, real-time collaboration to Vim.
+  [Floobits](https://floobits.com/) Floobits lets you use native editors to 
+  work on the same files as others in real-time.
