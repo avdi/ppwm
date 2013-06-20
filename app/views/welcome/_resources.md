@@ -77,3 +77,4 @@ successfully pair-programming beyond your office.
   multi-user, real-time collaboration to Vim.
   [Floobits](https://floobits.com/) Floobits lets you use native editors to 
   work on the same files as others in real-time.
+  [tmate](http://tmate.io/) Instant terminal sharing
