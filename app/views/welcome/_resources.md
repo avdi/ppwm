@@ -78,3 +78,13 @@ successfully pair-programming beyond your office.
 - [Floobits](https://floobits.com/) Floobits lets you use native editors to 
   work on the same files as others in real-time.
 - [tmate](http://tmate.io/) Instant terminal sharing
+
+### Sharing the (commit) credit
+
+- [git-pairing](https://github.com/glg/git-pairing) Share code authorship when pairing and 
+  using git/github with commands like `git pair`, `git solo` and `git whoami`
+- [Did we git pair?](http://pivotallabs.com/did-we-git-pair/) includes 
+  [Chef recipes](https://github.com/pivotal/pivotal_workstation/blob/master/templates/default/git_scripts_pairs.erb)
+  for sharing commit authorship
+- [hitch](https://github.com/therubymug/hitch) Git author attribution helper for pair programmers. 
+  Also see [a guide on the changelog blog](http://thechangelog.com/hitch-git-author-attribution-helper-for-pair-programmers/)
