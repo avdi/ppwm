@@ -42,6 +42,8 @@ successfully pair-programming beyond your office.
   is a virtual meetup for finding pairs.
 
 ### Tools
+- [GNU Screen](http://www.gnu.org/software/screen/) Has a multi display mode (-x)
+  that allows more than one person to participate in the same session.
 - [TMUX](http://tmux.sourceforge.net/) Allows more than one person to
   connect to a single terminal session.
 - [Wemux](https://github.com/zolrath/wemux) "enhances tmux to make
