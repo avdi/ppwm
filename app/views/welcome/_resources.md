@@ -77,6 +77,7 @@ successfully pair-programming beyond your office.
 - [Floobits](https://floobits.com/) Floobits lets you use native editors to 
   work on the same files as others in real-time.
 - [tmate](http://tmate.io/) Instant terminal sharing
+- [Nitrous.io](https://www.nitrous.io/) creates an online 'box' for running and editing code, and also runs port forwarding and syncing to your local computer so you can use desktop editors.
 
 ### Sharing the (commit) credit
 
