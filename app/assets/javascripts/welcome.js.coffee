@@ -7,7 +7,7 @@ $ ->
   formatCode = (input) ->
     email = $(input).val()
     code = """<a href="mailto:#{email}" title="Pair program with me!">
-                <img  src="http://pairprogramwith.me/badge.png"
+                <img  src="http://pairprogramwith.me/assets/badge.svg"
                       alt="Pair program with me!" />
               </a>"""
 
