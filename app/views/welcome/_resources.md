@@ -78,7 +78,7 @@ successfully pair-programming beyond your office.
   work on the same files as others in real-time.
 - [tmate](http://tmate.io/) Instant terminal sharing
 - [Nitrous.io](https://www.nitrous.io/) creates an online 'box' for running and editing code, and also runs port forwarding and syncing to your local computer so you can use desktop editors.
-- [TeamViewer](http://www.teamviewer.com/) screen-sharing app for Mac/Windows, allows remote control and you can change color/quality settings to improve latency. Free for personal use.
+- [TeamViewer](http://www.teamviewer.com/) screen-sharing app for Mac/Windows/Linux, allows remote control and you can change color/quality settings to improve latency. Free for personal use.
 
 ### Sharing the (commit) credit
 
