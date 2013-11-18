@@ -24,6 +24,8 @@ successfully pair-programming beyond your office.
 - Steven Haddox's
   "[Remote Pairing with ssh, tmux, and vim](http://blog.stevenhaddox.com/2012/04/11/remote-pairing-with-ssh-tmux-vim/)"
   blog post.
+- Jay Hayes has a blog post about [tmux pairing on your
+  box](http://iamvery.com/2013/11/16/tmux-pairing-anywhere-on-your-box.html).
 - [RubyPair.com](http://rubypair.com/) is a site to find someone to
   pair with on Ruby projects.
 - [Emberpairs.com](http://emberpairs.com) is a site to find someone to pair
