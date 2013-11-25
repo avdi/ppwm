@@ -24,6 +24,7 @@ successfully pair-programming beyond your office.
 - Steven Haddox's
   "[Remote Pairing with ssh, tmux, and vim](http://blog.stevenhaddox.com/2012/04/11/remote-pairing-with-ssh-tmux-vim/)"
   blog post.
+- [CoderMatch](http://www.codermatch.me) is a site to find a pair programming buddy to code with locally or remotely.
 - [RubyPair.com](http://rubypair.com/) is a site to find someone to
   pair with on Ruby projects.
 - [Emberpairs.com](http://emberpairs.com) is a site to find someone to pair
@@ -74,7 +75,7 @@ successfully pair-programming beyond your office.
   Hangout.
 - [CoVim](https://github.com/FredKSchott/CoVim) is a plugin that adds
   multi-user, real-time collaboration to Vim.
-- [Floobits](https://floobits.com/) Floobits lets you use native editors to 
+- [Floobits](https://floobits.com/) Floobits lets you use native editors to
   work on the same files as others in real-time.
 - [tmate](http://tmate.io/) Instant terminal sharing
 - [Nitrous.io](https://www.nitrous.io/) creates an online 'box' for running and editing code, and also runs port forwarding and syncing to your local computer so you can use desktop editors.
@@ -82,10 +83,10 @@ successfully pair-programming beyond your office.
 
 ### Sharing the (commit) credit
 
-- [git-pairing](https://github.com/glg/git-pairing) Share code authorship when pairing and 
+- [git-pairing](https://github.com/glg/git-pairing) Share code authorship when pairing and
   using git/github with commands like `git pair`, `git solo` and `git whoami`
-- [Did we git pair?](http://pivotallabs.com/did-we-git-pair/) includes 
+- [Did we git pair?](http://pivotallabs.com/did-we-git-pair/) includes
   [Chef recipes](https://github.com/pivotal/pivotal_workstation/blob/master/templates/default/git_scripts_pairs.erb)
   for sharing commit authorship
-- [hitch](https://github.com/therubymug/hitch) Git author attribution helper for pair programmers. 
+- [hitch](https://github.com/therubymug/hitch) Git author attribution helper for pair programmers.
   Also see [a guide on the changelog blog](http://thechangelog.com/hitch-git-author-attribution-helper-for-pair-programmers/)
