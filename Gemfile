@@ -10,6 +10,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem "capybara"
   gem 'shoulda-matchers'
+  gem 'launchy'
 end
 
 group :production do
@@ -50,7 +51,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :development do
-  gem 'therubyracer'
+  #gem "therubyracer"
 end
 
 gem 'ppwm-matcher', github: 'rubyrogues/ppwm-matcher', require: 'ppwm_matcher', :branch => 'master'
