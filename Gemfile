@@ -5,8 +5,14 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
+group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
+  gem "capybara"
+  gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
+  gem 'launchy'
+  gem 'database_cleaner'
 end
 
 group :production do
@@ -47,7 +53,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :development do
-  gem 'therubyracer'
+  gem "therubyracer"
 end
 
 gem 'ppwm-matcher', github: 'rubyrogues/ppwm-matcher', require: 'ppwm_matcher', :branch => 'master'
