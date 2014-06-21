@@ -27,6 +27,7 @@ successfully pair-programming beyond your office.
   "[Remote Pairing with ssh, tmux, and vim](http://blog.stevenhaddox.com/2012/04/11/remote-pairing-with-ssh-tmux-vim/)"
   blog post.
 - [CoderMatch](http://www.codermatch.me) is a site to find a pair programming buddy to code with locally or remotely.
+- [Codementor](https://www.codementor.io) is a site to find instant help from expert mentors via code/screen sharing, video and text chat.
 - [RubyPair.com](http://rubypair.com/) is a site to find someone to
   pair with on Ruby projects.
 - [Emberpairs.com](http://emberpairs.com) is a site to find someone to pair
