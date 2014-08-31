@@ -45,6 +45,8 @@ successfully pair-programming beyond your office.
   is a virtual meetup for finding pairs.
 
 ### Tools
+- [tmux.me](http://tmux.me) is a free tool/service that makes remote tmux
+  based pair programming easy.
 - [TMUX](http://tmux.sourceforge.net/) Allows more than one person to
   connect to a single terminal session.
 - [Wemux](https://github.com/zolrath/wemux) "enhances tmux to make
