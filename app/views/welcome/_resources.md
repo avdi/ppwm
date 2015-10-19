@@ -80,6 +80,7 @@ successfully pair-programming beyond your office.
 - [tmate](http://tmate.io/) Instant terminal sharing
 - [Nitrous.io](https://www.nitrous.io/) creates an online 'box' for running and editing code, and also runs port forwarding and syncing to your local computer so you can use desktop editors.
 - [TeamViewer](http://www.teamviewer.com/) screen-sharing app for Mac/Windows/Linux, allows remote control and you can change color/quality settings to improve latency. Free for personal use.
+- [Atom-pair](https://atom.io/packages/atom-pair) remote pairing package within the [Atom](https://atom.io/) text editor, powered by Pusher
 
 ### Sharing the (commit) credit
 
