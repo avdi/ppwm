@@ -16,7 +16,13 @@ section#badge
 
       form#get-badge-code
         .row.collapse
+          .small-12.columns
+            button#pick-email.button.active
+              | Email
+            button#pick-twitter.button
+              | Twitter
           .small-9.columns
+            input#badge-twitter.hide type="text" placeholder="@AwesomeCoder"
             input#badge-email type="email" placeholder="awesome@coder.org"
           .small-3.columns
             button#submit-email.button.prefix
