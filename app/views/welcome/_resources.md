@@ -87,6 +87,8 @@ successfully pair-programming beyond your office.
 
 - [git-pairing](https://github.com/glg/git-pairing) Share code authorship when pairing and
   using git/github with commands like `git pair`, `git solo` and `git whoami`
+- [git-duet](https://github.com/git-duet/git-duet) Successor to git-pair — truly share "credit" between pairs' github 
+  accounts.
 - [Did we git pair?](http://pivotallabs.com/did-we-git-pair/) includes
   [Chef recipes](https://github.com/pivotal/pivotal_workstation/blob/master/templates/default/git_scripts_pairs.erb)
   for sharing commit authorship
