@@ -66,7 +66,7 @@ successfully pair-programming beyond your office.
 - [Remote Pair Chef](https://github.com/rondale-sc/remote_pair_chef) Quickly
   build customized EC2 instances bootstrapped with RVM, TMUX, Vim and
   pre-built users in a single command.
-- [Cloud9](https://c9.io/site/code-smarter-code-together/) is an online ide
+- [Cloud9](https://c9.io/) is an online IDE
   that allows "developers around the world to edit the same code and chat
   together in real-time". You can sign in with your github account and clone
   repos straight into it.
