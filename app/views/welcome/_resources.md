@@ -27,8 +27,6 @@ successfully pair-programming beyond your office.
   "[Remote Pairing with ssh, tmux, and vim](http://blog.stevenhaddox.com/2012/04/11/remote-pairing-with-ssh-tmux-vim/)"
   blog post.
 - [CoderMatch](http://www.codermatch.me) is a site to find a pair programming buddy to code with locally or remotely.
-- [Emberpairs.com](http://emberpairs.com) is a site to find someone to pair
-  with on Ember projects.
 - [Pair-with-me.herokuapp.com](http://pair-with-me.herokuapp.com/) is an
   aggregator for #pairwithme tweets, by Marty Hines.
 - [airpair.com](http://www.airpair.com) lets developers easily list themselves
