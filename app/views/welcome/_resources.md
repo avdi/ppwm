@@ -50,8 +50,6 @@ successfully pair-programming beyond your office.
   for remote pairing built around Wemux, from LivingSocial.
 - [Tweemux](https://github.com/PeopleAdmin/tweemux) A slim wrapper
   around tmux to ease remote pairing setup.
-- [webpair](https://github.com/yarmand/webpair) Share your local tmux
-  session in a web browser through a remote bridge machine.
 - [github-auth](https://github.com/chrishunt/github-auth) SSH key management
   for Github users. Easily add/remove any Github user's public ssh keys.
 - [Google+ Hangouts](http://www.google.com/+/learnmore/hangouts/) have screen-sharing and remote desktop control capabilities with integrated audio and video chat.
