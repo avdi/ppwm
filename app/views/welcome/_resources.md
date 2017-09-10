@@ -70,8 +70,6 @@ successfully pair-programming beyond your office.
   that allows "developers around the world to edit the same code and chat
   together in real-time". You can sign in with your github account and clone
   repos straight into it.
-- [MadEye](http://madeye.io) Embed a multi-user Ace editor inside of a Google
-  Hangout.
 - [CoVim](https://github.com/FredKSchott/CoVim) is a plugin that adds
   multi-user, real-time collaboration to Vim.
 - [Floobits](https://floobits.com/) Floobits lets you use native editors to
