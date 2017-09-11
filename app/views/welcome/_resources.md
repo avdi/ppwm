@@ -42,6 +42,8 @@ successfully pair-programming beyond your office.
 - [How to Build the Ultimate Remote Pair Programming Environment](http://6ftdan.com/allyourdev/2016/05/29/how-to-build-the-ultimate-remote-pair-programming-environment/) by Daniel P. Clark. Safely remotely pair with a sandboxed dekstop environment.
 
 ### Tools
+- [tmux.me](http://tmux.me) is a free tool/service that makes remote tmux
+  based pair programming easy.
 - [TMUX](http://tmux.sourceforge.net/) Allows more than one person to
   connect to a single terminal session.
 - [Wemux](https://github.com/zolrath/wemux) "enhances tmux to make
