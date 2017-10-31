@@ -1,5 +1,9 @@
 # PairProgramWith.me
 
+
+
+[![Pair with Me](https://img.shields.io/badge/Pair%20with%20Me-%F0%9F%91%AC-blue.svg)](https://www.pairprogramwith.me/)
+
 A community-maintained resource to encourage and facilitate diverse
 pair-programming. Help eagerly welcomed!
 
