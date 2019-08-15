@@ -15,9 +15,6 @@ successfully pair-programming beyond your office.
   screencast</a> to get you all orientated with this terminal power tool.
 - Joe Moore has a whole
   [blog dedicated to remote pair-programming](http://remotepairprogramming.com/).
-- <a
-  href="http://zeespencer.com/articles/building-a-remote-pairing-setup/">"Build
-  a Command Line Remote Pairing Setup"</a>, from Zee Spencer
 - The [WideTeams Podcast](http://wideteams.com) often features
   discussions of remote pair-programming.
 - Evan Light's
