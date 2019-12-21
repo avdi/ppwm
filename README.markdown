@@ -3,6 +3,15 @@
 A community-maintained resource to encourage and facilitate diverse
 pair-programming. Help eagerly welcomed!
 
+# Contributing
+
+Building and running the app locally is easiest achieved by
+using [docker](https://docker.com).
+
+1. Build container using `docker build -t ppwm .`
+2. Run container via `docker run --rm -it "$(pwd):/app" -p 3000:3000 ppwm`
+3. Visit `localhost:3000` to see the app running
+
 # LICENSE
 
 Copyright (c) 2013 Avdi Grimm
