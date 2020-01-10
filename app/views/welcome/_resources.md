@@ -4,7 +4,7 @@ successfully pair-programming beyond your office.
 
 ### Guides & Talks
 - <a href="http://pragprog.com/book/jkrp/remote-pairing">Remote
-  Pairing: Collaborative Tools for Distributed Development</a> is a book by Joe Kutner 
+  Pairing: Collaborative Tools for Distributed Development</a> is a book by Joe Kutner
 - Sam Livingston-Gray <a
   href="http://www.youtube.com/watch?v=W_hsEi_UZHE">talks about Tools
   for Pair Programming (video)</a>.  See also the
@@ -20,23 +20,10 @@ successfully pair-programming beyond your office.
   a Command Line Remote Pairing Setup"</a>, from Zee Spencer
 - The [WideTeams Podcast](http://wideteams.com) often features
   discussions of remote pair-programming.
-- Evan Light's
-  "[The Remote Pairing Guy](http://evan.tiggerpalace.com/articles/2011/10/17/some-people-call-me-the-remote-pairing-guy-/)"
-  blog post.
-- Steven Haddox's
-  "[Remote Pairing with ssh, tmux, and vim](http://blog.stevenhaddox.com/2012/04/11/remote-pairing-with-ssh-tmux-vim/)"
-  blog post.
-- [CoderMatch](http://www.codermatch.me) is a site to find a pair programming buddy to code with locally or remotely.
-- [Pair-with-me.herokuapp.com](http://pair-with-me.herokuapp.com/) is an
-  aggregator for #pairwithme tweets, by Marty Hines.
-- [airpair.com](http://www.airpair.com) lets developers easily list themselves
-  for paid pairing.
-- [Ruby Rogues Podcast episode #26](http://rubyrogues.com/026-rr-pair-programming/)
+- [Ruby Rogues Podcast episode #26](http://rubyrogues.com/ruby-rogues/026-rr-pair-programming/)
   talked about pair programming.
 - Angela Harms [has a talk](http://www.youtube.com/watch?v=OQXEzwXtzJ8) about
   common pitfalls.
-- [letspair.net](http://letspair.net) is a site where you can schedule your
-  pair programming sessions or join someone else's.
 - [Remote pair programmers meetup](http://www.meetup.com/remotepairprogrammers/)
   is a virtual meetup for finding pairs.
 - [How to Build the Ultimate Remote Pair Programming Environment](http://6ftdan.com/allyourdev/2016/05/29/how-to-build-the-ultimate-remote-pair-programming-environment/) by Daniel P. Clark. Safely remotely pair with a sandboxed dekstop environment.
@@ -52,12 +39,6 @@ successfully pair-programming beyond your office.
   around tmux to ease remote pairing setup.
 - [github-auth](https://github.com/chrishunt/github-auth) SSH key management
   for Github users. Easily add/remove any Github user's public ssh keys.
-- [Google+ Hangouts](http://www.google.com/+/learnmore/hangouts/) have screen-sharing and remote desktop control capabilities with integrated audio and video chat.
-- [Screenhero](http://screenhero.com/) is a screen-sharing app for Mac/Windows,
-  optimized for collaboration. It includes features like dual mouse pointers,
-  so you can see what your pairing partner is pointing at.
-- [Syme](http://syme.herokuapp.com/) sets up disposable EC2 nodes for
-  collaborating on GitHub projects via ssh and tmux.
 - [Join.me](https://join.me/) Simple, free and awesome cross-platform
   (mac/win/mobile) screensharing for multiple users, with remote control,
   audio and text chat.
@@ -78,9 +59,7 @@ successfully pair-programming beyond your office.
 
 ### Sharing the (commit) credit
 
-- [git-pairing](https://github.com/glg/git-pairing) Share code authorship when pairing and
-  using git/github with commands like `git pair`, `git solo` and `git whoami`
-- [git-duet](https://github.com/git-duet/git-duet) Successor to git-pair — truly share "credit" between pairs' github 
+- [git-duet](https://github.com/git-duet/git-duet) Successor to git-pair — truly share "credit" between pairs' github
   accounts.
 - [Did we git pair?](https://content.pivotal.io/blog/did-we-git-pair) includes
   [Chef recipes](https://github.com/pivotal/pivotal_workstation/blob/master/templates/default/git_scripts_pairs.erb)
