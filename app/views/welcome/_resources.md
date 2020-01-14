@@ -4,7 +4,7 @@ successfully pair-programming beyond your office.
 
 ### Guides & Talks
 - <a href="http://pragprog.com/book/jkrp/remote-pairing">Remote
-  Pairing: Collaborative Tools for Distributed Development</a> is a book by Joe Kutner
+  Pairing: Collaborative Tools for Distributed Development</a> is a book by Joe Kutner.
 - Sam Livingston-Gray <a
   href="http://www.youtube.com/watch?v=W_hsEi_UZHE">talks about Tools
   for Pair Programming (video)</a>.  See also the
@@ -17,7 +17,7 @@ successfully pair-programming beyond your office.
   [blog dedicated to remote pair-programming](http://remotepairprogramming.com/).
 - <a
   href="http://zeespencer.com/articles/building-a-remote-pairing-setup/">"Build
-  a Command Line Remote Pairing Setup"</a>, from Zee Spencer
+  a Command Line Remote Pairing Setup"</a>, from Zee Spencer.
 - The [WideTeams Podcast](http://wideteams.com) often features
   discussions of remote pair-programming.
 - [Ruby Rogues Podcast episode #26](http://rubyrogues.com/ruby-rogues/026-rr-pair-programming/)
@@ -58,7 +58,7 @@ successfully pair-programming beyond your office.
 - [tmate](http://tmate.io/) Instant terminal sharing
 - [TeamViewer](http://www.teamviewer.com/) screen-sharing app for Mac/Windows/Linux, allows remote control and you can change color/quality settings to improve latency. Free for personal use.
 - [Slack /pair command](https://github.com/techieshark/slack-pair) Slack slash command your team can use to see who is free to pair on what.
-- [Atom-pair](https://atom.io/packages/atom-pair) remote pairing package within the [Atom](https://atom.io/) text editor, powered by Pusher
+- [Atom-pair](https://atom.io/packages/atom-pair) remote pairing package within the [Atom](https://atom.io/) text editor, powered by Pusher.
 
 ### Sharing the (commit) credit
 
@@ -66,6 +66,6 @@ successfully pair-programming beyond your office.
   accounts.
 - [Did we git pair?](https://content.pivotal.io/blog/did-we-git-pair) includes
   [Chef recipes](https://github.com/pivotal/pivotal_workstation/blob/master/templates/default/git_scripts_pairs.erb)
-  for sharing commit authorship
+  for sharing commit authorship.
 - [hitch](https://github.com/therubymug/hitch) Git author attribution helper for pair programmers.
-  Also see [a guide on the changelog blog](http://thechangelog.com/hitch-git-author-attribution-helper-for-pair-programmers/)
+  Also see [a guide on the changelog blog](http://thechangelog.com/hitch-git-author-attribution-helper-for-pair-programmers/).
