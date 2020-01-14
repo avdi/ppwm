@@ -27,8 +27,10 @@ successfully pair-programming beyond your office.
 - [Remote pair programmers meetup](http://www.meetup.com/remotepairprogrammers/)
   is a virtual meetup for finding pairs.
 - [How to Build the Ultimate Remote Pair Programming Environment](http://6ftdan.com/allyourdev/2016/05/29/how-to-build-the-ultimate-remote-pair-programming-environment/) by Daniel P. Clark. Safely remotely pair with a sandboxed dekstop environment.
+- [Tuple's Pair Programming Guide](https://tuple.app/pair-programming-guide) Tips, tutorials, and resources for thoughtful pair programmers.
 
 ### Tools
+- [Tuple](https://tuple.app) macOS only screen sharing tool tailored for pair programming.
 - [tmux](https://tmux.github.io/) Allows more than one person to
   connect to a single terminal session.
 - [Wemux](https://github.com/zolrath/wemux) "enhances tmux to make
