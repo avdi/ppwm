@@ -30,6 +30,7 @@ successfully pair-programming beyond your office.
 - [Tuple's Pair Programming Guide](https://tuple.app/pair-programming-guide) Tips, tutorials, and resources for thoughtful pair programmers.
 
 ### Tools
+- [Adaface](https://www.adaface.com/pair-pro) Any browser any device shared code editor with compiler and video conferencing
 - [Tuple](https://tuple.app) macOS only screen sharing tool tailored for pair programming.
 - [tmux](https://tmux.github.io/) Allows more than one person to
   connect to a single terminal session.
