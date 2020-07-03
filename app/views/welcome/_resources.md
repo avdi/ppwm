@@ -3,6 +3,7 @@ getting started? Here are some links to talks, guides, and tools for
 successfully pair-programming beyond your office.
 
 ### Guides & Talks
+- <i><a href="https://abookapart.com/products/practical-pair-programming">Practical Pair Programming</a></i> is a brief book by Jason Garber.
 - <a href="http://pragprog.com/book/jkrp/remote-pairing">Remote
   Pairing: Collaborative Tools for Distributed Development</a> is a book by Joe Kutner.
 - Sam Livingston-Gray <a
