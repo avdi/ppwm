@@ -105,7 +105,7 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    redcarpet (2.2.2)
+    redcarpet (3.5.1)
     ref (1.0.5)
     sass (3.2.7)
     sass-rails (3.2.6)
