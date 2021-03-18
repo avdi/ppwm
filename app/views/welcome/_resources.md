@@ -51,6 +51,7 @@ successfully pair-programming beyond your office.
   that allows "developers around the world to edit the same code and chat
   together in real-time". You can sign in with your github account and clone
   repos straight into it.
+- [CoScreen](https://coscreen.co) Make your desktop a shared remote collaborative pair-programming workspace. Share and interact with multiple applications between multiple users, with integrated non-intrusive audio and video chat. Bring your own IDE, mobile emulators, design, or debug tools. Free for small teams.
 - [CoVim](https://github.com/FredKSchott/CoVim) is a plugin that adds
   multi-user, real-time collaboration to Vim.
 - [Floobits](https://floobits.com/) Floobits lets you use native editors to
