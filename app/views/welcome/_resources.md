@@ -59,6 +59,7 @@ successfully pair-programming beyond your office.
 - [TeamViewer](http://www.teamviewer.com/) screen-sharing app for Mac/Windows/Linux, allows remote control and you can change color/quality settings to improve latency. Free for personal use.
 - [Slack /pair command](https://github.com/techieshark/slack-pair) Slack slash command your team can use to see who is free to pair on what.
 - [Atom-pair](https://atom.io/packages/atom-pair) remote pairing package within the [Atom](https://atom.io/) text editor, powered by Pusher.
+- [DevAndDev](https://devand.dev/) given your favorite languages and your available time slots, this website helpes you finding pair programming friends,
 
 ### Sharing the (commit) credit
 
